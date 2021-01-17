@@ -6,3 +6,76 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.bg-penguins{
+    background-color: rgb(255, 253, 235);
+}
+
+.pen-header{
+    padding: 100px 20px 30px 20px;
+    height: 400px;
+}
+
+.pen-header-text{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.be-the{
+    color: rgb(253, 198, 17);
+}
+
+.of-winter{
+    color: rgb(3, 9, 65);
+}
+
+@media screen and (max-width: 768px){
+    .header-img{
+        display: none;
+    }
+}
+
+.pen-btn-colors{
+    background-color: rgb(117, 201, 34);
+    color: #ffff;
+}
+
+.pen-btn-colors:hover{
+    color: white;
+    background-color: rgb(120, 209, 31);
+}
+
+.jacket-item{
+    margin-bottom: 10px;
+}
+
+.jacket-al{
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+}
+
+.jacket-img{
+    padding-top: 5px;
+    border-radius: 7px;
+    justify-items: center;
+}
+
+.jacket-title{
+    color: rgb(3, 9, 65);
+}
+
+.price{
+    color: rgb(253, 198, 17);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.jacket-btn{
+    right: 5px;
+    position: absolute;
+}
+
+.footer{
+    background-color: rgb(3, 9, 65);
+    color: rgb(253, 198, 17);
+}
